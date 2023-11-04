@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    margin: auto;
+
+    .image {
+        width: 550px;
+        height: 550px;
+        object-fit: cover;
+        border-radius: 1em;
+        margin: 1em 0;
+    }
+
+    .recipes-details {
+        margin: 1em 0;
+    }
+
+    .ingredients, .directions {
+        width: 500px;
+    }
+
+    .step {
+        margin: 1em 0;
+    }
+
+    .title {
+        width: 550px;
+    }
+}
